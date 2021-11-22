@@ -3,7 +3,7 @@ import configMerger from '../util/configMerger';
 
 const CONFIG = 'ludwigsburg';
 const APP_TITLE = 'stadtnavi Ludwigsburg';
-const APP_DESCRIPTION = 'Gemeinsam Mobilität neu denken - die intermodale Verbindungssuche mit offenen, lokalen Daten';
+const APP_DESCRIPTION = 'Gemeinsam MobilitÃ¤t neu denken - die intermodale Verbindungssuche mit offenen, lokalen Daten';
 const API_URL = process.env.API_URL || 'https://api.dev.stadtnavi.eu';
 const MAP_URL = process.env.MAP_URL || 'https://tiles.stadtnavi.eu/streets/{z}/{x}/{y}{r}.png';
 const SEMI_TRANSPARENT_MAP_URL = process.env.SEMITRANSPARENT_MAP_URL || "https://tiles.stadtnavi.eu/satellite-overlay/{z}/{x}/{y}{r}.png";
@@ -142,7 +142,7 @@ export default configMerger(parentConfig, {
 
     menu: {
         copyright: {
-            label: `© Stadtwerke Ludwigsburg ${YEAR}`
+            label: `Â© Stadtwerke Ludwigsburg ${YEAR}`
         },
         content: [
             {
@@ -167,31 +167,31 @@ export default configMerger(parentConfig, {
     aboutThisService: {
         de: [
             {
-                header: 'Über diesen Dienst',
+                header: 'Ãœber diesen Dienst',
                 paragraphs: [
-                    'stadtnavi Ludwigsburg ist eine Reiseplanungs-Anwendung für die Stadt Ludwigsburg und Umgebung. Dieser Dienst umfasst ÖPNV, Fußwege, Radverkehr, Straßen- und Parkplatzinformationen, Ladeinfrastruktur und Sharing-Angebote. Mobilitätsangebote werden durch intermodales Routing miteinander vernetzt.'
+                    'stadtnavi Ludwigsburg ist eine Reiseplanungs-Anwendung fÃ¼r die Stadt Ludwigsburg und Umgebung. Dieser Dienst umfasst Ã–PNV, FuÃŸwege, Radverkehr, StraÃŸen- und Parkplatzinformationen, Ladeinfrastruktur und Sharing-Angebote. MobilitÃ¤tsangebote werden durch intermodales Routing miteinander vernetzt.'
 
                 ],
             },
             {
                 header: 'Mitmachen',
                 paragraphs: [
-                    'stadtnavi Ludwigsburg basiert auf dem BMVI-geförderten Projekt stadtnavi Herrenberg. stadtnavi Anwendung ist eine Open Source Lösung, <a href="https://gihtub.com/stadtnavi/digitransit-ui">auf GitHub verfügbar</a>, und kann von anderen Kommunen und Akteuren unter ihrem Namen und Erscheinungsbild verwendet und an individuelle Bedürfnisse angepasst und weiterentwickelt werden (White Label Lösung). Mitmachen ist gewünscht!',
+                    'stadtnavi Ludwigsburg basiert auf dem BMVI-gefÃ¶rderten Projekt stadtnavi Herrenberg. stadtnavi Anwendung ist eine Open Source LÃ¶sung, <a href="https://gihtub.com/stadtnavi/digitransit-ui">auf GitHub verfÃ¼gbar</a>, und kann von anderen Kommunen und Akteuren unter ihrem Namen und Erscheinungsbild verwendet und an individuelle BedÃ¼rfnisse angepasst und weiterentwickelt werden (White Label LÃ¶sung). Mitmachen ist gewÃ¼nscht!',
                 ]
             },
             {
                 header: 'Digitransit Plattform',
                 paragraphs: [
-                    'Dieser Dienst basiert auf der Digitransit Platform und dem Backend-Dienst OpenTripPlanner. Alle Software ist unter einer offenen Lizenzen verfügbar. Vielen Dank an alle Beteiligten.',
-                    'Der gesamte Quellcode der Plattform, die aus vielen verschiedenen Komponenten besteht, ist auf <a href="https://github.com/stadtnavi/">Github</a> verfügbar.'
+                    'Dieser Dienst basiert auf der Digitransit Platform und dem Backend-Dienst OpenTripPlanner. Alle Software ist unter einer offenen Lizenzen verfÃ¼gbar. Vielen Dank an alle Beteiligten.',
+                    'Der gesamte Quellcode der Plattform, die aus vielen verschiedenen Komponenten besteht, ist auf <a href="https://github.com/stadtnavi/">Github</a> verfÃ¼gbar.'
                 ],
             },
             {
                 header: 'Datenquellen',
                 paragraphs: [
-                    'Kartendaten: © <a target=new href=https://www.openstreetmap.org/>OpenStreetMap Mitwirkende</a>',
-                    'ÖPNV-Daten: Datensätze der <a target=new href=https://www.nvbw.de/aufgaben/digitale-mobilitaet/open-data/>NVBW GmbH</a> und der <a target=new href=https://www.openvvs.de/dataset/gtfs-daten>VVS GmbH</a>, Shapes (d.h. Geometrien der Streckenverläufe) jeweils angereichert mit OpenStreetMap-Daten © OpenStreetMap Mitwirkende',
-                    'Alle Angaben ohne Gewähr.'
+                    'Kartendaten: Â© <a target=new href=https://www.openstreetmap.org/>OpenStreetMap Mitwirkende</a>',
+                    'Ã–PNV-Daten: DatensÃ¤tze der <a target=new href=https://www.nvbw.de/aufgaben/digitale-mobilitaet/open-data/>NVBW GmbH</a> und der <a target=new href=https://www.openvvs.de/dataset/gtfs-daten>VVS GmbH</a>, Shapes (d.h. Geometrien der StreckenverlÃ¤ufe) jeweils angereichert mit OpenStreetMap-Daten Â© OpenStreetMap Mitwirkende',
+                    'Alle Angaben ohne GewÃ¤hr.'
                 ],
             },
         ],
@@ -217,8 +217,8 @@ export default configMerger(parentConfig, {
             {
                 header: 'Data sources',
                 paragraphs: [
-                    'Map data: © <a target=new href=https://www.openstreetmap.org/>OpenStreetMap contributors</a>',
-                    'Public transit data: Datasets by <a target=new href=https://www.nvbw.de/aufgaben/digitale-mobilitaet/open-data/>NVBW GmbH</a> and <a target=new href=https://www.openvvs.de/dataset/gtfs-daten>VVS GmbH</a>, Shapes (d.h. Geometries of transit routes) enhanced with OpenStreetMap data © OpenStreetMap contributors',
+                    'Map data: Â© <a target=new href=https://www.openstreetmap.org/>OpenStreetMap contributors</a>',
+                    'Public transit data: Datasets by <a target=new href=https://www.nvbw.de/aufgaben/digitale-mobilitaet/open-data/>NVBW GmbH</a> and <a target=new href=https://www.openvvs.de/dataset/gtfs-daten>VVS GmbH</a>, Shapes (d.h. Geometries of transit routes) enhanced with OpenStreetMap data Â© OpenStreetMap contributors',
                     'No responsibility is accepted for the accuracy of this information.'
                 ],
             },
@@ -234,6 +234,17 @@ export default configMerger(parentConfig, {
     // adding assets/geoJson/hb-layers layers
     geoJson: {
         layers: [
+		// Nette Toilette layer
+            {
+                name: {
+                    fi: '',
+                    en: 'Public Toilets',
+                    de: 'Nette Toilette',
+                },
+                url: 'https://die-nette-toilette.de/verwaltung/application/?action=getToiletsJSON&apikey=a9llu42&webcode=7OWOBO&ort_id=95',
+                isOffByDefault: true,
+            },
+
         ],
     },
     staticMessagesUrl: STATIC_MESSAGE_URL,
